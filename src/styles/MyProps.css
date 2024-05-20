@@ -1,0 +1,88 @@
+.Container{
+    box-shadow: 1px 1px 4px 1px #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #1c7eee;
+    margin: 10px;
+    h1{
+        color: #00f;
+
+    }
+    input{
+        width: 80%;
+        height: 35px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(
+            180deg,
+            #1c7eee,
+            #1c7eee,
+            #1c7eee,
+            #1c6eee,
+            #1c6fee,
+            #1c6fee
+            
+        );
+        color: #0ff;
+        outline: none;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    input::placeholder {
+        padding-left: 10px;
+        color: #aaa;
+        font-size: 18px;
+    }
+    button{
+        background-color: #33f;
+        border: none;
+        margin: 10px;
+    }
+    span{
+        font-size: 60px;
+    }
+    
+}
+.contenido{
+    height: 100px;
+    width: 90%;
+    background-color: #1184;
+}
+
+.botonesColor{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .red{
+        button{
+            background-color: #f00;
+        }
+    }
+    .green{
+        button{
+            background-color: #0f0;
+        }
+    }
+    .blue{
+        button{
+            background-color: #00f;
+        }
+    }
+}
